@@ -65,8 +65,9 @@ class Wrapper constructor( sentence: String , columnNumber: Int ) {
         val wordArray = sentence.split(" ")
         val lineArray = mutableListOf<String>()
         for( index in wordArray.indices ) {
+
             if ( lineArray.size == 0 ) {
-                lineArray.add( wordArray[index] )
+                lineArray.addAll( wordArray[index].chunked( columnNumber ) )
             } else if ( lineArray.last().length + 1 + wordArray[index].length <= columnNumber ){
                 lineArray[lineArray.lastIndex] = lineArray.last() + " " + wordArray[index]
             } else if ( wordArray[index].length > columnNumber ) {

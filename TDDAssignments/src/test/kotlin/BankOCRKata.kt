@@ -123,7 +123,7 @@ class AccountNumberReader {
         for (index in lines.indices) {
             var i = 0
             while(i < (lines[index].length/ numberWidth)){
-                arrayOfNumbers.add(lines[index].slice(IntRange(start = i* numberWidth, endInclusive = (i* numberWidth + 2))))
+                arrayOfNumbers.add( lines[index].slice( IntRange(start = i * numberWidth, endInclusive = ( i * numberWidth + 2 ))))
                 i++
             }
         }

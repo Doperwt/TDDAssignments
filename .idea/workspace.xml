@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="261028b4-5259-4af2-8533-f8c66bd87aa2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/TDDAssignments/src/test/kotlin/TicTacToekata.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDDAssignments/out/test/classes/Wrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/TDDAssignments/out/test/classes/Wrapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TDDAssignments/src/test/kotlin/BankOCRKata.kt" beforeDir="false" afterPath="$PROJECT_DIR$/TDDAssignments/src/test/kotlin/BankOCRKata.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TDDAssignments/src/test/kotlin/WordWarpKata.kt" beforeDir="false" afterPath="$PROJECT_DIR$/TDDAssignments/src/test/kotlin/WordWarpKata.kt" afterDir="false" />
     </list>
@@ -47,11 +49,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordWarpKata.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordWarpKata.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TDDAssignments/src/test/kotlin/WordWarpKata.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="80" lean-forward="true" selection-end-line="80" />
+            <state relative-caret-position="571">
+              <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicTacToekata.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TDDAssignments/src/test/kotlin/TicTacToekata.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding>
                 <element signature="e#0#62#0" expanded="true" />
               </folding>
@@ -62,8 +76,8 @@
       <file leaf-file-name="BankOCRKata.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TDDAssignments/src/test/kotlin/BankOCRKata.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2256">
-              <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+            <state relative-caret-position="1053">
+              <caret line="123" column="21" lean-forward="true" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
               <folding>
                 <element signature="e#0#62#0" expanded="true" />
               </folding>
@@ -611,8 +625,9 @@
         <option value="$PROJECT_DIR$/TDDAssignments/build.gradle" />
         <option value="$PROJECT_DIR$/TDDAssignments/src/main/kotlin/DemoTest.kt" />
         <option value="$PROJECT_DIR$/TDDAssignments/src/test/kotlin/DemoTest.kt" />
-        <option value="$PROJECT_DIR$/TDDAssignments/src/test/kotlin/BankOCRKata.kt" />
         <option value="$PROJECT_DIR$/TDDAssignments/src/test/kotlin/WordWarpKata.kt" />
+        <option value="$PROJECT_DIR$/TDDAssignments/src/test/kotlin/BankOCRKata.kt" />
+        <option value="$PROJECT_DIR$/TDDAssignments/src/test/kotlin/TicTacToekata.kt" />
       </list>
     </option>
   </component>
@@ -696,7 +711,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WrapTest">
+  <component name="RunManager" selected="JUnit.TicTacToekata">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -751,14 +766,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BankOCRKata.twoIsTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TicTacToekata" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDAssignments_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BankOCRKata" />
-      <option name="METHOD_NAME" value="twoIsTwo" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="TicTacToekata" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -826,17 +841,17 @@
     <list>
       <item itemvalue="JUnit.BankOCRKata" />
       <item itemvalue="JUnit.BankOCRKata.WorksWithTwoNumbers" />
-      <item itemvalue="JUnit.BankOCRKata.twoIsTwo" />
       <item itemvalue="JUnit.BankOCRKata.oneIsOne" />
       <item itemvalue="JUnit.WrapTest" />
+      <item itemvalue="JUnit.TicTacToekata" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TicTacToekata" />
         <item itemvalue="JUnit.WrapTest" />
         <item itemvalue="JUnit.BankOCRKata" />
         <item itemvalue="JUnit.BankOCRKata.WorksWithTwoNumbers" />
         <item itemvalue="JUnit.BankOCRKata.oneIsOne" />
-        <item itemvalue="JUnit.BankOCRKata.twoIsTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -854,15 +869,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WrapTest - 2018.05.17 at 11h 56m 23s.xml">
-      <configuration name="WrapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WrapTest - 2018.05.17 at 11h 58m 23s.xml">
-      <configuration name="WrapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WrapTest - 2018.05.17 at 11h 59m 31s.xml">
-      <configuration name="WrapTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WrapTest - 2018.05.17 at 12h 00m 24s.xml">
       <configuration name="WrapTest" configurationId="JUnit" />
     </history-entry>
@@ -883,6 +889,15 @@
     </history-entry>
     <history-entry file="WrapTest - 2018.05.17 at 12h 41m 16s.xml">
       <configuration name="WrapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WrapTest - 2018.05.17 at 13h 15m 43s.xml">
+      <configuration name="WrapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TicTacToekata - 2018.05.17 at 15h 03m 48s.xml">
+      <configuration name="TicTacToekata" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TicTacToekata - 2018.05.17 at 15h 21m 16s.xml">
+      <configuration name="TicTacToekata" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1211,6 +1226,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TDDAssignments/src/test/kotlin/BankOCRKata.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="123" column="21" lean-forward="true" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TDDAssignments/src/test/kotlin/DemoTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1218,20 +1243,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TDDAssignments/src/test/kotlin/BankOCRKata.kt">
+    <entry file="file://$PROJECT_DIR$/TDDAssignments/src/test/kotlin/WordWarpKata.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2256">
-          <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+        <state relative-caret-position="571">
+          <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
           <folding>
             <element signature="e#0#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TDDAssignments/src/test/kotlin/WordWarpKata.kt">
+    <entry file="file://$PROJECT_DIR$/TDDAssignments/src/test/kotlin/TicTacToekata.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="80" lean-forward="true" selection-end-line="80" />
+        <state relative-caret-position="550">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="e#0#62#0" expanded="true" />
           </folding>
