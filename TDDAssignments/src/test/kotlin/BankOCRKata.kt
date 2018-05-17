@@ -119,16 +119,17 @@ class AccountNumberReader {
                 " _  _| _|","   |_|  |"," _ |_  _|",
                 " _ |_ |_|"," _   |  |"," _ |_||_|",
                 " _ |_| _|")
+        val numberWidth = 3
         for (index in lines.indices) {
             var i = 0
-            while(i < (lines[index].length/3)){
-                arrayOfNumbers.add(lines[index].slice(IntRange(start = i*3, endInclusive = (i*3 + 2))))
+            while(i < (lines[index].length/ numberWidth)){
+                arrayOfNumbers.add(lines[index].slice(IntRange(start = i* numberWidth, endInclusive = (i* numberWidth + 2))))
                 i++
             }
         }
         var i = 0
         var illegible = false
-        val numberOfNumbers = arrayOfNumbers.size/3
+        val numberOfNumbers = arrayOfNumbers.size/ numberWidth
         while ( i < numberOfNumbers) {
             val number = arrayOfNumbers[(i)]+arrayOfNumbers[(i+numberOfNumbers)]+arrayOfNumbers[(i+numberOfNumbers*2)]
             val convertedNumber = compareList.indexOf(number)
@@ -191,7 +192,8 @@ class AccountNumberReader {
     fun fixChecksum(numberArray :MutableList<Int>) :MutableList<Int> {
         var i = 0
         while( i < numberArray.size ){
-
+            if(numberArray[i] == 1) { numberArray[i] = 7 }
+            if(checksum(numberArray)){return numberArray}
             i++
         }
         return numberArray
@@ -222,3 +224,4 @@ class AccountNumberReader {
 //    _      _
 //2 =|_|     _|
 //   |_  && |_| &&
+

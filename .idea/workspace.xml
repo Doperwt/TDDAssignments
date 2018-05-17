@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="261028b4-5259-4af2-8533-f8c66bd87aa2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/TDDAssignments/out/test/classes/AccountNumberReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDDAssignments/out/test/classes/BankOCRKata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TDDAssignments/src/test/kotlin/BankOCRKata.kt" beforeDir="false" afterPath="$PROJECT_DIR$/TDDAssignments/src/test/kotlin/BankOCRKata.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TDDAssignments/src/test/kotlin/WordWarpKata.kt" beforeDir="false" afterPath="$PROJECT_DIR$/TDDAssignments/src/test/kotlin/WordWarpKata.kt" afterDir="false" />
     </list>
@@ -34,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/TDDAssignments/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="814">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -43,16 +42,16 @@
         <entry file="file://$PROJECT_DIR$/TDDAssignments/src/test/kotlin/DemoTest.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordWarpKata.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WordWarpKata.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TDDAssignments/src/test/kotlin/WordWarpKata.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            <state relative-caret-position="461">
+              <caret line="80" lean-forward="true" selection-end-line="80" />
               <folding>
                 <element signature="e#0#62#0" expanded="true" />
               </folding>
@@ -60,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankOCRKata.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BankOCRKata.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TDDAssignments/src/test/kotlin/BankOCRKata.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-195">
-              <caret line="159" column="52" selection-start-line="159" selection-start-column="52" selection-end-line="159" selection-end-column="52" />
+            <state relative-caret-position="-2256">
+              <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
               <folding>
                 <element signature="e#0#62#0" expanded="true" />
               </folding>
@@ -612,8 +611,8 @@
         <option value="$PROJECT_DIR$/TDDAssignments/build.gradle" />
         <option value="$PROJECT_DIR$/TDDAssignments/src/main/kotlin/DemoTest.kt" />
         <option value="$PROJECT_DIR$/TDDAssignments/src/test/kotlin/DemoTest.kt" />
-        <option value="$PROJECT_DIR$/TDDAssignments/src/test/kotlin/WordWarpKata.kt" />
         <option value="$PROJECT_DIR$/TDDAssignments/src/test/kotlin/BankOCRKata.kt" />
+        <option value="$PROJECT_DIR$/TDDAssignments/src/test/kotlin/WordWarpKata.kt" />
       </list>
     </option>
   </component>
@@ -683,7 +682,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -697,7 +696,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BankOCRKata">
+  <component name="RunManager" selected="JUnit.WrapTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -752,13 +751,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BankOCRKata.smokeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankOCRKata.twoIsTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDAssignments_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BankOCRKata" />
-      <option name="METHOD_NAME" value="smokeTest" />
+      <option name="METHOD_NAME" value="twoIsTwo" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -769,14 +768,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BankOCRKata.twoIsTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WrapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDAssignments_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BankOCRKata" />
-      <option name="METHOD_NAME" value="twoIsTwo" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="WrapTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -826,18 +825,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.BankOCRKata" />
-      <item itemvalue="JUnit.BankOCRKata.smokeTest" />
       <item itemvalue="JUnit.BankOCRKata.WorksWithTwoNumbers" />
       <item itemvalue="JUnit.BankOCRKata.twoIsTwo" />
       <item itemvalue="JUnit.BankOCRKata.oneIsOne" />
+      <item itemvalue="JUnit.WrapTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WrapTest" />
         <item itemvalue="JUnit.BankOCRKata" />
         <item itemvalue="JUnit.BankOCRKata.WorksWithTwoNumbers" />
         <item itemvalue="JUnit.BankOCRKata.oneIsOne" />
         <item itemvalue="JUnit.BankOCRKata.twoIsTwo" />
-        <item itemvalue="JUnit.BankOCRKata.smokeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -855,35 +854,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BankOCRKata - 2018.05.16 at 14h 58m 24s.xml">
-      <configuration name="BankOCRKata" configurationId="JUnit" />
+    <history-entry file="WrapTest - 2018.05.17 at 11h 56m 23s.xml">
+      <configuration name="WrapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankOCRKata - 2018.05.16 at 15h 05m 34s.xml">
-      <configuration name="BankOCRKata" configurationId="JUnit" />
+    <history-entry file="WrapTest - 2018.05.17 at 11h 58m 23s.xml">
+      <configuration name="WrapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankOCRKata - 2018.05.16 at 16h 13m 49s.xml">
-      <configuration name="BankOCRKata" configurationId="JUnit" />
+    <history-entry file="WrapTest - 2018.05.17 at 11h 59m 31s.xml">
+      <configuration name="WrapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankOCRKata - 2018.05.16 at 16h 14m 35s.xml">
-      <configuration name="BankOCRKata" configurationId="JUnit" />
+    <history-entry file="WrapTest - 2018.05.17 at 12h 00m 24s.xml">
+      <configuration name="WrapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankOCRKata - 2018.05.16 at 16h 15m 00s.xml">
-      <configuration name="BankOCRKata" configurationId="JUnit" />
+    <history-entry file="WrapTest - 2018.05.17 at 12h 02m 23s.xml">
+      <configuration name="WrapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankOCRKata - 2018.05.16 at 16h 18m 32s.xml">
-      <configuration name="BankOCRKata" configurationId="JUnit" />
+    <history-entry file="WrapTest - 2018.05.17 at 12h 07m 33s.xml">
+      <configuration name="WrapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankOCRKata - 2018.05.16 at 16h 19m 17s.xml">
-      <configuration name="BankOCRKata" configurationId="JUnit" />
+    <history-entry file="WrapTest - 2018.05.17 at 12h 09m 05s.xml">
+      <configuration name="WrapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankOCRKata - 2018.05.16 at 16h 50m 23s.xml">
-      <configuration name="BankOCRKata" configurationId="JUnit" />
+    <history-entry file="WrapTest - 2018.05.17 at 12h 31m 02s.xml">
+      <configuration name="WrapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankOCRKata - 2018.05.16 at 17h 49m 16s.xml">
-      <configuration name="BankOCRKata" configurationId="JUnit" />
+    <history-entry file="WrapTest - 2018.05.17 at 12h 40m 26s.xml">
+      <configuration name="WrapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankOCRKata - 2018.05.16 at 17h 50m 04s.xml">
-      <configuration name="BankOCRKata" configurationId="JUnit" />
+    <history-entry file="WrapTest - 2018.05.17 at 12h 41m 16s.xml">
+      <configuration name="WrapTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -892,18 +891,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info active="true" anchor="bottom" id="Messages" order="4" visible="true" weight="0.19979508" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.19979508" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.33913934" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.33913934" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32924336" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49795502" visible="true" weight="0.18867925" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49795502" visible="true" weight="0.1574124" />
       <window_info anchor="right" id="Gradle" order="1" />
       <window_info id="Structure" order="6" sideWeight="0.502045" side_tool="true" weight="0.18867925" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -1208,31 +1207,31 @@
     <entry file="file://$PROJECT_DIR$/TDDAssignments/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="814">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TDDAssignments/src/test/kotlin/DemoTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TDDAssignments/src/test/kotlin/WordWarpKata.kt">
+    <entry file="file://$PROJECT_DIR$/TDDAssignments/src/test/kotlin/BankOCRKata.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        <state relative-caret-position="-2256">
+          <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
           <folding>
             <element signature="e#0#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TDDAssignments/src/test/kotlin/BankOCRKata.kt">
+    <entry file="file://$PROJECT_DIR$/TDDAssignments/src/test/kotlin/WordWarpKata.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="159" column="52" selection-start-line="159" selection-start-column="52" selection-end-line="159" selection-end-column="52" />
+        <state relative-caret-position="461">
+          <caret line="80" lean-forward="true" selection-end-line="80" />
           <folding>
             <element signature="e#0#62#0" expanded="true" />
           </folding>
