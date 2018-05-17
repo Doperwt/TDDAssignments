@@ -63,11 +63,33 @@ class BankOCRKata {
         Assertions.assertThat(checkSumNoFail).isEqualTo("664371495")
     }
     @Test
-    fun fixBrokenNumber(){
+    fun fixBrokenSix(){
         //act
         val unbrokenReturn = reader.transform(
                         " _        _  _        _  _ \n"+
                         "|_ |_ |_| _|  |  ||_||_||_ \n"+
+                        "|_||_|  | _|  |  |  | _| _|"
+        )
+        //assert
+        Assertions.assertThat(unbrokenReturn).isEqualTo("664371495")
+    }
+    @Test
+    fun fixBrokenFour(){
+        //act
+        val unbrokenReturn = reader.transform(
+                        " _  _     _  _        _  _ \n"+
+                        "|_ |_  _| _|  |  ||_||_||_ \n"+
+                        "|_||_|  | _|  |  |  | _| _|"
+        )
+        //assert
+        Assertions.assertThat(unbrokenReturn).isEqualTo("664371495")
+    }
+    @Test
+    fun fixBrokenOne(){
+        //act
+        val unbrokenReturn = reader.transform(
+                        " _  _     _  _        _  _ \n"+
+                        "|_ |_ |_| _|  | _||_||_||_ \n"+
                         "|_||_|  | _|  |  |  | _| _|"
         )
         //assert
@@ -82,7 +104,7 @@ class BankOCRKata {
                         "|_||_||_||_||_||_||_| _|  |"
         )
         //assert
-        Assertions.assertThat(checkSumFail).isEqualTo("000000051 ERR")
+        Assertions.assertThat(checkSumFail).isEqualTo("000000051 ILL")
     }
 }
 
@@ -90,7 +112,7 @@ class AccountNumberReader {
     fun transform(read:String) : String {
         val lines = read.split("\n")
         val arrayOfNumbers = mutableListOf<String>()
-        val outcome = mutableListOf<String>()
+        var outcome = mutableListOf<String>()
         val checkSum = mutableListOf<Int>()
         val compareList = listOf(
                 " _ | ||_|","     |  |"," _  _||_ ",
@@ -113,7 +135,7 @@ class AccountNumberReader {
             if (convertedNumber == -1){
                 val fixedNumber = fixNumber(number)
                 if(fixedNumber != -1){
-
+                    outcome.add(fixedNumber.toString())
                 } else {
                     outcome.add("?")
                     illegible = true
@@ -129,7 +151,15 @@ class AccountNumberReader {
             outcome.add(" ILL")
         } else {
             if(checksum(checkSum)){
-                outcome.add(" ERR")
+                val fixedCheckSum = fixChecksum(checkSum)
+                if(fixedCheckSum==checkSum){
+                    outcome.add(" ILL")
+                } else {
+                    outcome = mutableListOf()
+                    for(index in fixedCheckSum.indices){
+                        outcome.add(fixedCheckSum[index].toString())
+                    }
+                }
             }
         }
         return outcome.joinToString("")
@@ -145,12 +175,29 @@ class AccountNumberReader {
         }
         return accumulator.rem(11) == 0
     }
+
     private
     fun fixNumber(number : String) : Int {
-        return -1
+        if(number == "   |_ |_|"){
+            return 6
+          } else if(number == "    _|  |") {
+            return 4
+          } else  {
+            return -1
+         }
+    }
+
+    private
+    fun fixChecksum(numberArray :MutableList<Int>) :MutableList<Int> {
+        var i = 0
+        while( i < numberArray.size ){
+
+            i++
+        }
+        return numberArray
     }
 }
-
+// 0 ? 6:9:8
 // 1 ? 7
 // 3 ? 9
 // 5 ? 6:9
